@@ -1,0 +1,16 @@
+byobu.desktop
+chromium-browser.desktop
+codux.desktop
+debian-uxterm.desktop
+debian-xterm.desktop
+defaults.list
+display-im6.q16.desktop
+google-chrome.desktop
+htop.desktop
+info.desktop
+io.snapcraft.SessionAgent.desktop
+mimeinfo.cache
+python3.10.desktop
+snap-handle-link.desktop
+vim.desktop
+wslview.desktop

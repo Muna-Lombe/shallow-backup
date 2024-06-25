@@ -1,0 +1,38 @@
+{
+    "backup_path": "~/shallow-backup",
+    "dotfiles": {
+        ".bash_profile": {
+            "backup_condition": "",
+            "reinstall_condition": ""
+        },
+        ".bashrc": {},
+        ".config/git": {},
+        ".config/nvim/init.vim": {},
+        ".config/tmux": {},
+        ".config/zsh": {},
+        ".profile": {},
+        ".pypirc": {},
+        ".ssh": {},
+        ".zshenv": {},
+        ".config/shallow-backup.json": {}
+    },
+    "root-gitignore": [
+        "dotfiles/.ssh",
+        "dotfiles/.pypirc",
+        ".DS_Store"
+    ],
+    "dotfiles-gitignore": [
+        ".ssh",
+        ".pypirc",
+        ".DS_Store"
+    ],
+    "config_mapping": {
+        "/.config/sublime-text-2": "sublime2",
+        "/.config/sublime-text-3": "sublime3",
+        "/.config/Code/User/settings.json": "vscode/settings",
+        "/.config/Code/User/Snippets": "vscode/Snippets",
+        "/.config/Code/User/keybindings.json": "vscode/keybindings",
+        "/home/muna/.atom": "atom"
+    },
+    "lowest_supported_version": "6.3a"
+}
